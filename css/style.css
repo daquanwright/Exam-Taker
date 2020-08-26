@@ -1,0 +1,239 @@
+/* Daquan Wright - Front-end */
+body {
+  background-color: #bb0f0f;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+textarea {
+  margin: 0 20px 0 20px;
+}
+
+select {
+  display: inline;
+  margin: auto;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 20px;
+  margin: 10px;
+  padding: 4px;
+}
+
+table input {
+  margin-bottom: 10px;
+}
+
+#question_bank_table_position {
+  display: flex;
+  justify-content: center;
+}
+
+#exams_table_position {
+  display: flex;
+  justify-content: center;
+}
+
+#exams_table_position p {
+  font-size: 1em;
+}
+
+#container {
+  margin: auto;
+  position: relative;
+    top: 130px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.column {
+  background-color: #282727;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px 0px black;
+  color: white;
+  display: table-cell;
+  font-weight: bold;
+  margin: auto;
+  padding-bottom: 40px;
+  position: relative;
+    bottom: 70px;
+  table-layout: fixed;
+  text-align: center;
+  max-width: 600px;
+}
+
+.exam_column {
+  background-color: #282727;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px 0px black;
+  color: white;
+  display: table-cell;
+  font-weight: bold;
+  margin: auto;
+  padding: 15px 0 40px 0;
+  position: relative;
+    bottom: 70px;
+    left: 90px;
+  text-align: center;
+  vertical-align: middle;
+  width: 800px;
+}
+
+#exam_column {
+  background-color: #282727;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px 0px black;
+  color: white;
+  display: table-cell;
+  font-weight: bold;
+  margin: auto;
+  padding: 15px 0 40px 0;
+  position: relative;
+    bottom: 70px;
+    left: 90px;
+  text-align: center;
+  vertical-align: middle;
+  width: 800px;
+}
+
+.form_title {
+  font-size: 30px;
+  position: relative;
+    top: 20px;
+}
+
+fieldset {
+  background-color: #282727;
+  border: 1px solid #282727;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px 0px black;
+  color: white;
+  display: inline-block;
+  margin-bottom: 100px;
+  min-height: 300px;
+  min-width: 50%;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#form_fields_position {
+  position: relative;
+    top: 60px;
+}
+
+form input {
+  height: 20px;
+  width: 200px;
+}
+
+button {
+  border: none;
+  font-size: 25px;
+  height: 40px;
+  width: 150px;
+}
+
+.login  {
+  background-color: #1C1B1B;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px 0px black;
+  color: #ffffff;
+}
+
+.login:hover {
+  background-color: #b30000;
+  color: #101010;
+}
+
+#back {
+  background-color: #1C1B1B;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px 0px black;
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#back:hover {
+  background-color: #b30000;
+  color: #101010;
+  padding: 10px;
+}
+
+.button {
+  background-color: #1C1B1B;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px 0px black;
+  color: #ffffff;
+  display: inline-block;
+  font-size: .9em;
+  height: 30px;
+  width: 40px;
+}
+
+.button:hover {
+  background-color: #b30000;
+  color: #101010;
+}
+
+.submit {
+  background-color: #1C1B1B;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px 0px black;
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 30px;
+  width: 230px;
+}
+
+.submit:hover {
+  background-color: #b30000;
+  color: #101010;
+}
+
+#response {
+  /*border: 1px solid black;*/
+  height: 50px;
+  width: 300px;
+  margin: auto;
+  position: relative;
+    top: 15px;
+}
+
+#Answer {
+  height: 200px;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+
+  #form_fields_position {
+    position: relative;
+      top: 40px;
+  }
+
+  button {
+    position: relative;
+      left: 0;
+  }
+
+  fieldset {
+    max-width: 90%;
+  }
+
+  textarea {
+    max-width: 100%;
+  }
+
+}

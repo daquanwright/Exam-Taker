@@ -1,0 +1,54 @@
+/* Daquan Wright - Front-end */
+body {
+  background-color: #940000;
+}
+
+#container {
+  background-color: #282727;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px 0px black;
+  min-height: 300px;
+  max-width: 50%;
+  margin: auto;
+  position: relative;
+    top: 130px;
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  list-style-image: none;
+  margin-top: 50px;
+  position: relative;
+    left: -5%;
+    top: 60px;
+}
+
+.button {
+  background-color: #1C1B1B;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px 0px black;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.button:hover {
+  background-color: #b30000;
+  color: #101010;
+  padding: 10px;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+
+  #container {
+    min-width: 90%;
+  }
+
+}
